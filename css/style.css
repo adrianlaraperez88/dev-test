@@ -1,0 +1,65 @@
+body {
+    background: #222222;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.btn-default {
+    background-image: none;
+}
+
+#nav h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 160px;
+}
+
+#modal_body {
+    margin: 0px 0px 0px 30px;
+}
+
+.value_tag {
+    font: 19px arial, sans-serif;
+}
+
+.name_tag {
+    font: bold 19px arial, sans-serif;
+}
+
+/*Pagination */
+
+ul.pagination {
+    display: inline-block;
+    font: 22px arial, sans-serif;
+    text-align: center;
+    float: none;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    border: none;
+    margin: 0px;
+}
+
+ul.pagination li a.active {
+    background-color: #e6e9ed;
+    color: black;
+    border: 0.5px solid #aab2bd;
+    border-radius: 13px;
+}
